@@ -112,8 +112,8 @@ body {
 .teacherlist p:hover{
     color: #0055E1;
 }
-.teacherlist .teacherlist{
-    
+.teacherlist .teacherlist li{
+    text-align: center;
 }
 /* footer */
 footer{
