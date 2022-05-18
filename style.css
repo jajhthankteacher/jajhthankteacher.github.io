@@ -8,8 +8,8 @@
 body {
     min-height: 100vh;
     align-items: center;
-    display: flex;
     justify-content: center;
+    display: flex;
     animation:pageload 1s ;
 }
 @keyframes pageload {
@@ -32,8 +32,8 @@ body {
 }
 #videolinkbtn i{
     position: relative;
-    right: 5px;
     bottom: 3px;
+    right: 5px;
 }
 #videolinkbtn:hover{
     letter-spacing: 2px;
@@ -42,8 +42,9 @@ body {
     color: #000;
 }
 .ball{
+    
     filter:blur(10px);
-    position: absolute;
+    position: fixed;
     height: 200px;
     width: 200px;
     border-radius:50%;
@@ -71,11 +72,11 @@ body {
     backdrop-filter:blur(20px);
     background: rgba(255,255,255,0.1);
     box-shadow: 0 25px 45px rgba(0, 0, 0, 0.15);
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
 }
 .topcardcontent{
-    transform: perspective(1000px);
-    transform: translateZ(100px);
-    transform-style:preserve-3d ;
+    transform: translateZ(20px);
     font-size:25px;
     font-weight:bold;
 }
@@ -89,4 +90,33 @@ body {
     top: 50%;
     text-align: center;
 }
-/* icon setting */
+/* teacherlist */
+.teacherlist{
+    border-radius: 20px;
+    height: 95vh;
+    width: 80%;
+    border-radius:20px;
+    border: 2px solid rgba(255,255,255,0.25);
+    backdrop-filter:blur(20px);
+    background: rgba(255,255,255,0.1);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    bottom: -100vh;
+}
+.teacherlist p{
+    text-align: center;
+    font-size:30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.teacherlist p:hover{
+    color: #0055E1;
+}
+.teacherlist .teacherlist{
+    
+}
+/* footer */
+footer{
+    position: absolute;
+    bottom: -100vh;
+}
