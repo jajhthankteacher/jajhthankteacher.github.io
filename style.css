@@ -55,7 +55,7 @@ body {
     transition: 0.5s;
 }
 .navlist a:hover{
-    color: #4e79be;
+    color: #6e94d2;
     letter-spacing: 2px;
 }
 .navlist.active{
@@ -177,6 +177,8 @@ body.active{
 }
 /* footer */
 footer{
+    height: 100px;
     position: absolute;
-    bottom: -100vh;
+    bottom: -110vh;
+    z-index: 9;
 }
