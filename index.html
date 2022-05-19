@@ -12,13 +12,20 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body>
+    <div id="top" name="top"></div>
     <div class="ball"></div>
-        <div class="topcard" data-tilt data-tilt-max="40">
+        <div class="topcard" data-tilt data-tilt-max="30" data-tilt-full-page-listening >
             <div class="topcardcontent">
                 <p>感謝老師的教導還有...</p>
             </div>
         </div>
-    <button onclick="window.location.href='#teacherlist'"  li="#teacherlist" id="videolinkbtn">&ensp;給每個老師的卡片和影片&ensp;<i class="bi bi-arrow-down-circle"></i></button>
+    <button id="navlistbtn">&ensp;<i class="bi bi-link-45deg"></i>快速連結&ensp;</button>
+    <!-- navlist -->
+    <nav class="navlist">
+        <p id="title">&ensp;快速連結&ensp;</p>
+            <a href="#top">&ensp;#頂端&ensp;</a><br>
+            <a href="#teacherlist">&ensp;#給每個老師的卡片&ensp;</a><br>
+    </nav>
     <!-- <input id="videolinkbtn" type="button" value="&ensp;給每個老師的卡片和影片&ensp;"> -->
     <div id="teacherlist" name="teacherlist" class="teacherlist">
         <p onclick="window.location.href='#teacherlist'">#給每個老師的卡片</p>
@@ -42,6 +49,7 @@
             <li>呂紹滿 體育老師</li>
         </ul>
     </div>
+    <!-- yt api video -->
     <!-- footer -->
     <footer>©jajhthankteacher&ensp;RubyChen&ensp;<span class="year"></span></footer>
     <!-- import .js cdn file -->
