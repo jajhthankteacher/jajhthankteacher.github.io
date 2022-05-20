@@ -202,26 +202,31 @@ body.active{
     bottom: -150%;
     z-index: 5;
     height: 40%;
-    width: 80%;
+    /* height:200px; */
+    width: 320px;
     border-radius:20px;
     border: 2px solid rgba(255,255,255,0.25);
     backdrop-filter:blur(20px);
     background: rgba(255,255,255,0.1);
     box-shadow: 0 25px 45px rgba(0, 0, 0, 0.30);
-
 }
 #youtubeapivideo{
     position: relative;
-    height: 70%;
-    width: 90%;
+    border-radius:10px;
+    height:200px;
+    width: 300px;
+    font-size:50px;
 }
-#youtubeapivideo p{
+.youtubevideo .title{
     text-align: center;
-    font-size:30px;
+    font-size: 30px;
     font-weight: bold;
     cursor: pointer;
 }
-/* footer */
+.youtubevideo .title:hover{
+    color: #0055E1;
+}
+    /* footer */
 footer{
     height: 100px;
     position: absolute;
