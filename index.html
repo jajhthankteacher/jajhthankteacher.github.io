@@ -19,13 +19,14 @@
                 <p>感謝老師的教導還有...</p>
             </div>
         </div>
-    <button id="navlistbtn">&ensp;<i class="bi bi-link-45deg"></i>快速連結&ensp;</button>
+    <button class="navlistbtn" id="navlistbtn">&ensp;<i class="bi bi-link-45deg"></i>快速連結&ensp;</button>
     <!-- navlist -->
     <nav class="navlist">
         <p id="title">&ensp;快速連結&ensp;</p>
             <a href="#top">&ensp;#頂端&ensp;</a><br>
             <a href="#teacherlist">&ensp;#給每個老師的卡片&ensp;</a><br>
-            <a href="#teacherlist">&ensp;#給老師們的影片&ensp;</a><br>
+            <a href="#youtubeapivideo">&ensp;#給老師們的影片&ensp;</a><br>
+            <a href="#footer">&ensp;#底部&ensp;</a><br>
     </nav>
     <!-- <input id="videolinkbtn" type="button" value="&ensp;給每個老師的卡片和影片&ensp;"> -->
     <div id="teacherlist" name="teacherlist" class="teacherlist">
@@ -51,8 +52,13 @@
         </ul>
     </div>
     <!-- yt api video -->
+    <div class="youtubevideo">
+        <p>#給每個老師的卡片</p>
+        <iframe id="youtubeapivideo"  src="https://www.youtube.com/embed/5WfiTHiU4x8" title="給老師們的影片" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
     <!-- footer -->
-    <footer>©jajhthankteacher&ensp;RubyChen&ensp;<span class="year"></span></footer>
+    <div name="footer" id="footer" ></div>
+    <footer >©jajhthankteacher&ensp;RubyChen&ensp;<span class="year"></span></footer>
     <!-- import .js cdn file -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"></script>
     <script src="/scripts.js"></script>

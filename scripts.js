@@ -5,4 +5,5 @@ const body = document.querySelector('body');
 navlistbtn.onclick=function(){
     navlist.classList.toggle('active');
     // body.classList.toggle('active');
+    navlistclose.style.display="block";
 }

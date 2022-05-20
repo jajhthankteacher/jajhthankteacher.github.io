@@ -20,6 +20,11 @@ body {
 @media screen and (max-width: 1000px){
 
 }
+@media screen and (max-width: 400px){
+    .navlist a{
+        font-size: 20px;
+    }
+}
 #top{
     position: absolute;
     top: 0px;
@@ -47,11 +52,10 @@ body {
 }
 .navlist a{
     text-decoration: none;
-    font-size: 30px;
-    line-height: 100px;
-    background:#333;
+    font-size: 25px;
+    line-height: 70px;
     border-radius:20px;
-    color: #fff;
+    color: #000;
     transition: 0.5s;
 }
 .navlist a:hover{
@@ -65,7 +69,8 @@ body {
 body.active{
     overflow: hidden;
 }
-#navlistbtn{
+/* navlistbtn */
+.navlistbtn{
     z-index: 10;
     height: 50px;
     width: auto;
@@ -79,19 +84,21 @@ body.active{
     transition: 0.5s;
     font-weight: bold;
     cursor: pointer;
+    box-shadow: 0 50px 80px rgba(0, 0, 0, 0.5);
 }
-#navlistbtn i{
+.navlistbtn i{
     position: relative;
     bottom: 3px;
     right: 5px;
 }
-#navlistbtn:hover{
+.navlistbtn:hover{
     letter-spacing: 2px;
     border: 2px solid #000;
     background-color: #fff;
     color: #000;
 }
 .ball{
+    z-index: 0;
     filter:blur(10px);
     position: absolute;
     height: 200px;
@@ -127,10 +134,11 @@ body.active{
     height: 300px;
     width: 300px;
     border-radius:20px;
-    background:#333;
+    background:rgb(189, 184, 184);
     display: flex;
     transform-style: preserve-3d;
     transform: perspective(1000px);
+    box-shadow: 0 50px 80px rgba(0, 0, 0, 0.5);
 }
 .topcardcontent{
     width: 50vh;
@@ -175,10 +183,55 @@ body.active{
 .teacherlist .teacherlist li{
     font-size: 30px;
 }
+/* youtubevideo */
+.youtubevideo{
+    /* z-index: 5;
+    border-radius: 20px;
+    height: 95vh;
+    width: 80%;
+    border-radius:20px;
+    border: 2px solid rgba(255,255,255,0.25);
+    backdrop-filter:blur(20px);
+    background: rgba(255,255,255,0.1);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    bottom: -100vh; */
+    position: absolute;
+    background: #fff;
+    border-radius:20px;
+    bottom: -150%;
+    z-index: 5;
+    height: 40%;
+    width: 80%;
+    border-radius:20px;
+    border: 2px solid rgba(255,255,255,0.25);
+    backdrop-filter:blur(20px);
+    background: rgba(255,255,255,0.1);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.30);
+
+}
+#youtubeapivideo{
+    position: relative;
+    height: 70%;
+    width: 90%;
+}
+#youtubeapivideo p{
+    text-align: center;
+    font-size:30px;
+    font-weight: bold;
+    cursor: pointer;
+}
 /* footer */
 footer{
     height: 100px;
     position: absolute;
-    bottom: -110vh;
+    bottom: -180vh;
     z-index: 9;
 }
+/* .footer{
+    height:50px;
+    width: 100%;
+    background-color: #000;
+    position: absolute;
+    
+} */
