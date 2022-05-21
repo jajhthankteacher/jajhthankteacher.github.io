@@ -18,13 +18,16 @@ body {
 }
 /* @media screen styles: */
 @media screen and (max-width: 1000px){
-
+    body {
+        background-color: #fff;
+    }
 }
 @media screen and (max-width: 400px){
     .navlist a{
         font-size: 20px;
     }
 }
+
 #top{
     position: absolute;
     top: 0px;
@@ -97,12 +100,15 @@ body.active{
     background-color: #fff;
     color: #000;
 }
+.navlistbtn.active{
+    content: none
+}
 .ball{
+    height: 300px;
+    width: 300px;
     z-index: 0;
     filter:blur(10px);
     position: absolute;
-    height: 200px;
-    width: 200px;
     border-radius:50%;
     background: linear-gradient(250deg, #FFEC00,#C400FF);
     animation: topcardball 2s infinite alternate;
@@ -161,7 +167,7 @@ body.active{
 .teacherlist{
     z-index: 5;
     border-radius: 20px;
-    height: 95vh;
+    height: auto;
     width: 80%;
     border-radius:20px;
     border: 2px solid rgba(255,255,255,0.25);
@@ -169,7 +175,29 @@ body.active{
     background: rgba(255,255,255,0.1);
     box-shadow: 0 25px 45px rgba(0, 0, 0, 0.15);
     position: absolute;
-    bottom: -100vh;
+    top: 100vh;
+}
+.teacherlist a{
+    display: inline-block;
+    text-decoration: none;
+    /* text-align: center; */
+    border:2px solid #000;
+    margin: 5px;
+    border-radius:10px ;
+    padding:5px;
+    color:#000;
+    width: 280px;
+    cursor: pointer;
+}
+.teacherlist a:hover{
+    color:#000;
+
+}
+.teacherlist img{
+    border-radius: 50%;
+    border: 3px solid #000;
+    height: 100px;
+    width: 100px;
 }
 .teacherlist p{
     text-align: center;
@@ -179,9 +207,6 @@ body.active{
 }
 .teacherlist p:hover{
     color: #0055E1;
-}
-.teacherlist .teacherlist li{
-    font-size: 30px;
 }
 /* youtubevideo */
 .youtubevideo{
@@ -196,14 +221,13 @@ body.active{
     box-shadow: 0 25px 45px rgba(0, 0, 0, 0.15);
     position: absolute;
     bottom: -100vh; */
-    position: absolute;
+    position:relative;
     background: #fff;
     border-radius:20px;
-    bottom: -150%;
     z-index: 5;
     height: 40%;
     /* height:200px; */
-    width: 320px;
+    width: auto;
     border-radius:20px;
     border: 2px solid rgba(255,255,255,0.25);
     backdrop-filter:blur(20px);
@@ -215,7 +239,6 @@ body.active{
     border-radius:10px;
     height:200px;
     width: 300px;
-    font-size:50px;
 }
 .youtubevideo .title{
     text-align: center;
@@ -228,15 +251,16 @@ body.active{
 }
     /* footer */
 footer{
-    height: 100px;
+    height: 200px;
+    width: 100%;
     position: absolute;
-    bottom: -180vh;
-    z-index: 9;
+    z-index: 20;
+    text-align: center;
+    top: 100%;
 }
 /* .footer{
     height:50px;
     width: 100%;
     background-color: #000;
     position: absolute;
-    
 } */

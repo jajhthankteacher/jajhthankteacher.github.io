@@ -13,51 +13,50 @@
 </head>
 <body>
     <div id="top" name="top"></div>
-    <div class="ball"></div>
+    <div  class="ball"></div>
         <div class="topcard" data-tilt data-tilt-max="30" data-tilt-full-page-listening >
             <div class="topcardcontent">
                 <p>感謝老師的教導還有...</p>
             </div>
         </div>
-    <button class="navlistbtn" id="navlistbtn">&ensp;<i class="bi bi-link-45deg"></i>快速連結&ensp;</button>
+    <button  class="navlistbtn" id="navlistbtn">&ensp;<i class="bi bi-link-45deg"></i>快速連結&ensp;</button>
     <!-- navlist -->
     <nav class="navlist">
         <p id="title">&ensp;快速連結&ensp;</p>
             <a  onclick="navlist.classList.remove('active');" class="navlistlink" href="#top">&ensp;#頂端&ensp;</a><br>
-            <a  onclick="navlist.classList.remove('active');" class="navlistlink" href="#teacherlist">&ensp;#給每個老師的卡片&ensp;</a><br>
+            <a  onclick="navlist.classList.remove('active');" class="navlistlink" href="#teacherlist">&ensp;#給每位老師的卡片&ensp;</a><br>
             <a  onclick="navlist.classList.remove('active');" class="navlistlink" href="#youtubevideo">&ensp;#給老師們的影片&ensp;</a><br>
-            <a  onclick="navlist.classList.remove('active');" class="navlistlink" href="#bottomfooter">&ensp;#底部&ensp;</a><br>
+            <a  onclick="navlist.classList.remove('active');" class="navlistlink" href="#bottomfooter">&ensp;#底端&ensp;</a><br>
     </nav>
     <!-- <input id="videolinkbtn" type="button" value="&ensp;給每個老師的卡片和影片&ensp;"> -->
-    <div id="teacherlist" name="teacherlist" class="teacherlist">
-        <p onclick="window.location.href='#teacherlist'">#給每個老師的卡片</p>
-        <ul class="teacherlinklist">
-            <li>王怡臻 視覺藝術老師(班導)</li>    
-            <li>廖元平 英文老師</li>
-            <li>陳姿宇 國文老師</li>
-            <li>林芩伃 數學老師</li>
-            <li>陳泰嬌 生物老師</li>
-            <li>鐘彩琳 地理老師</li>
-            <li>李涵 歷史老師</li>
-            <li>羅友君 公民老師</li>
-            <li>林莉芸 音樂老師</li>
-            <li>江佳錦 表演藝術老師</li>
-            <li>張芝伊 家政老師</li>
-            <li>王仁怡 童軍老師</li>
-            <li>洪玉如 補導老師</li>
-            <li>陳彥鈞 資訊科技老師</li>
-            <li>郝旭昶 生活科技老師</li>
-            <li>史璦溱 健康教育老師</li>
-            <li>呂紹滿 體育老師</li>
-        </ul>
-    </div>
+        <div id="teacherlist" name="teacherlist" class="teacherlist">
+            <p onclick="window.location.href='#teacherlist'">#給每位老師的卡片</p>
+            <ul  class="teacherlinklist">
+                <a href="#"><img src="/unbackground-rubyimg.png" alt="">&ensp;王怡臻 視覺藝術老師</p></a>   
+                <a href="#"><img src="/unbackground-rubyimg.png" alt="">&ensp;廖元平 英文老師</a>
+                <a href="#"><img src="/unbackground-rubyimg.png" alt="">&ensp;陳姿宇 國文老師</a>
+                <a href="#"><img src="/unbackground-rubyimg.png" alt="">&ensp;林芩伃 數學老師</a>
+                <a href="#"><img src="/unbackground-rubyimg.png" alt="">&ensp;陳泰嬌 生物老師</a>
+                <a href="#"><img src="/unbackground-rubyimg.png" alt="">&ensp;鐘彩琳 地理老師</a>
+                <a href="#"><img src="/unbackground-rubyimg.png" alt="">&ensp;李涵 歷史老師</a>
+                <a href="#"><img src="/unbackground-rubyimg.png" alt="">&ensp;羅友君 公民老師</a>
+                <a href="#"><img src="/unbackground-rubyimg.png" alt="">&ensp;林莉芸 音樂老師</a>
+                <a href="#"><img src="/unbackground-rubyimg.png" alt="">&ensp;江佳錦 表演藝術老師</a>
+                <a href="#"><img src="/unbackground-rubyimg.png" alt="">&ensp;張芝伊 家政老師</a>
+                <a href="#"><img src="/unbackground-rubyimg.png" alt="">&ensp;王仁怡 童軍老師</a>
+                <a href="#"><img src="/unbackground-rubyimg.png" alt="">&ensp;洪玉如 補導老師</a>
+                <a href="#"><img src="/unbackground-rubyimg.png" alt="">&ensp;陳彥鈞 資訊科技老師</a>
+                <a href="#"><img src="/unbackground-rubyimg.png" alt="">&ensp;郝旭昶 生活科技老師</a>
+                <a href="#"><img src="/unbackground-rubyimg.png" alt="">&ensp;史璦溱 健康教育老師</a>
+                <a href="#"><img src="/unbackground-rubyimg.png" alt="">&ensp;呂紹滿 體育老師</a>
+            </ul><br><br><br><br>
     <!-- yt api video -->
-    <div style="text-align: center;"  class="youtubevideo">
-        <p name="youtubevideo" id="youtubevideo" onclick="window.location.href='#youtubevideo'" class="title">#給每個老師的影片</p>
-        <iframe id="youtubeapivideo"  src="https://www.youtube.com/embed/5WfiTHiU4x8" title="給老師們的影片" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="youtubevideo">
+        <p name="youtubevideo" id="youtubevideo" onclick="window.location.href='#youtubevideo'" class="title">#給老師們的影片</p>
+        <center><iframe id="youtubeapivideo"  src="https://www.youtube.com/embed/5WfiTHiU4x8" title="給老師們的影片" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
     </div>
+        </div>
     <!-- footer -->
-    <div ></div>
     <footer name="bottomfooter" id="bottomfooter"  >©jajhthankteacher&ensp;RubyChen&ensp;<span class="year"></span></footer>
     <!-- import .js cdn file -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"></script>
