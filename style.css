@@ -73,11 +73,11 @@ body {
 .navlistd{
     display: block;
     height: 120px;
-    width: 500px;
+    width: 470x;
     position: absolute;
     background-color: #fff;
     border-radius: 20px;
-    padding: 15px;
+    padding: 10px;
     border: 3px solid #000;
     /* right: 5%;
     bottom: 5%; */
@@ -246,6 +246,7 @@ body.active{
 .teacherlist .title:hover{
     color: #0055E1;
 }
+
 a{
     cursor: pointer;
 }
@@ -281,6 +282,9 @@ a{
 }
 .teacherlist a:hover{
     color:#000;
+}
+img{
+    border-radius: 0%;
 }
 .teacherlist img{
     border-radius: 50%;
@@ -405,9 +409,17 @@ footer{
     text-align: center;
     top: 100%;
 }
+#footerico{
+    height: 20px;
+    width: 20px;
+    border: none!important;
+    border-radius: 0%!important;
+}
 /* .footer{
     height:50px;
     width: 100%;
     background-color: #000;
     position: absolute;
 } */
+
+/* the end of css/text code */

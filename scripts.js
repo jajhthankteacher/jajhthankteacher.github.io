@@ -6,6 +6,7 @@ navlistbtn.onclick=function(){
     navlist.classList.toggle('active');
     navlistbtn.classList.toggle('active');
 }
+
 //change navlistbtn content when onclick 
 // function changeText(idElement) {
 //     var navlistbtn = document.getElementById('navlistbtn' + idElement);
