@@ -164,6 +164,9 @@ body.active{
     text-align: center;
 }
 /* teacherlist */
+a{
+    cursor: pointer;
+}
 .teacherlist{
     z-index: 5;
     border-radius: 20px;
@@ -251,10 +254,10 @@ body.active{
 }
     /* footer */
 footer{
-    height: 200px;
+    height: 100px;
     width: 100%;
-    position: absolute;
-    z-index: 20;
+    position: relative;
+    z-index: 10;
     text-align: center;
     top: 100%;
 }
