@@ -13,6 +13,34 @@ body {
     animation:pageload 1s ;
     overflow-x: hidden;
 }
+/* gotop */
+#gotop {
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 3px solid #000;
+    cursor: pointer;
+    transition: 0.5s;
+    z-index: 20;
+}
+#gotop i{
+    font-size:40px;
+    position: relative;
+    text-align: center;
+    top: -17px;
+    left: 2px;
+    transition: 0.5s;
+}
+#gotop:hover{
+    background-color: #000;
+}
+#gotop i:hover{
+    color: #fff;
+}
 @keyframes pageload {
     from{filter: blur(20px);}
     to{filter: blur(0px);}
