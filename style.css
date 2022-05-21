@@ -11,6 +11,7 @@ body {
     justify-content: center;
     display: flex;
     animation:pageload 1s ;
+    overflow-x: hidden;
 }
 @keyframes pageload {
     from{filter: blur(20px);}
@@ -167,6 +168,10 @@ body.active{
 a{
     cursor: pointer;
 }
+.teacherlinklist a p{
+    font-size:17px;
+    display: inline;
+}
 .teacherlist{
     z-index: 5;
     border-radius: 20px;
@@ -241,7 +246,7 @@ a{
     position: relative;
     border-radius:10px;
     height:200px;
-    width: 300px;
+    width: auto;
 }
 .youtubevideo .title{
     text-align: center;
@@ -253,6 +258,42 @@ a{
     color: #0055E1;
 }
     /* footer */
+.youtubevideoshowbtn {
+    height: 35px;
+    width: auto;
+    position: relative;
+    border-radius:30px;
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+    transition: 0.5s;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px!important;
+}
+.youtubevideoshowbtn:hover{
+    background-color: #fff;
+    color: #000!important;
+    letter-spacing: 2px;
+}
+.or{
+    font-size:20px!important;
+}
+.or{
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+}
+.or span{
+    background:#fff; 
+    padding:0 10px; 
+}
+.or:hover{
+    color: #000!important;
+    cursor: context-menu;
+}
 footer{
     height: 100px;
     width: 100%;
