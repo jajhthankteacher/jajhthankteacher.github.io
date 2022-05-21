@@ -21,12 +21,56 @@ body {
 @media screen and (max-width: 900px){/*last 900px*/
     .navlistbtn{display: block!important;}
     .navlist{display: block!important;}
+    .navlistd{display: none!important;}
+}
+@media screen and (min-width: 900px){/*over 900px*/
+
 }
 #top{
     position: absolute;
     top: 0px;
 }
-/* navlist */
+
+/* navlist-d */
+.navlistd p{
+    position: relative;
+    top: -5px;
+    display: inline;
+    font-size:25px;
+    border: 3px solid #000;
+    border-radius:20px;
+    align-items: center;
+    cursor:context-menu;
+}
+.navlistd{
+    display: block;
+    height: 120px;
+    width: 500px;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 15px;
+    border: 3px solid #000;
+    /* right: 5%;
+    bottom: 5%; */
+    bottom: 5px;
+}
+.navlistd a{
+    border: 3px solid #000;
+    position: relative;
+    height: 20px;
+    width: auto;
+    background-color: #fff;
+    text-decoration: none;
+    border-radius:30px;
+    font-size:25px;
+    color:#1e64d5!important;
+    margin:5px;
+    line-height:50px;
+    top: -5px;
+}
+
+/* navlist-m */
 .navlist{
     z-index: 10;
     position:fixed;
@@ -136,11 +180,15 @@ body.active{
     height: 300px;
     width: 300px;
     border-radius:20px;
-    background:rgb(189, 184, 184);
+    background:#fff;
+    border: 3px solid #000;
     display: flex;
     transform-style: preserve-3d;
     transform: perspective(1000px);
     box-shadow: 0 50px 80px rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(255,255,255,0.25);
+    backdrop-filter:blur(20px);
+    background: rgba(255,255,255,0.1);
 }
 .topcardcontent{
     width: 50vh;
