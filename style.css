@@ -54,6 +54,24 @@ body {
 @media screen and (min-width: 900px){/*over 900px*/
 
 }
+@media screen and (max-width: 400px){/*last 400px*/
+    .teacherlinklist a{
+        margin-left:-25px!important;
+        background-color: #fff!important;
+    }
+}
+@media screen and (max-width: 370px){/*last 370px*/
+    /* .teacherlinklist p{
+        margin-left:-35px!important;
+        font-size: 20px!important;
+    } */
+}
+.teacherlinklist{
+    text-align: center;
+}
+.teacherlinklist a {
+    text-align:left!important;
+}
 #top{
     position: absolute;
     top: 0px;
@@ -423,3 +441,4 @@ footer{
 } */
 
 /* the end of css/text code */
+/* Dev by RubyChen */
