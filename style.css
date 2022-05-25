@@ -433,6 +433,30 @@ footer{
     border: none!important;
     border-radius: 0%!important;
 }
+#githublink{
+    border-bottom: 2px solid #000;
+    cursor: pointer;
+    transition: 0.5s ease-out;
+}
+#githublink:hover{
+    background: #000;
+    color: #fff;
+    border-bottom: none;
+}
+/* #githublink::before{
+    content:"另開新分頁Github倉庫";
+    background:#000;
+    position: absolute;
+    top: -25px;
+    color: #fff;
+    display: none;
+    border:5px;
+    transition: 0.5s;
+}
+#githublink:hover::before{
+    display:inline!important;
+    border-radius: 5px;
+} */
 /* .footer{
     height:50px;
     width: 100%;
