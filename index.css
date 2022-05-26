@@ -427,7 +427,7 @@ footer{
     text-align: center;
     top: 100%;
 }
-#footerico{
+/* #footerico{
     height: 20px;
     width: 20px;
     border: none!important;
@@ -442,7 +442,7 @@ footer{
     background: #000;
     color: #fff;
     border-bottom: none;
-}
+} */
 /* #githublink::before{
     content:"另開新分頁Github倉庫";
     background:#000;
