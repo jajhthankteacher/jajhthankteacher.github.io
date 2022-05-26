@@ -335,12 +335,6 @@ img{
     background: rgba(255,255,255,0.1);
     box-shadow: 0 25px 45px rgba(0, 0, 0, 0.30);
 }
-#youtubeapivideo{
-    position: relative;
-    border-radius:10px;
-    height:200px;
-    width: auto;
-}
 .youtubevideo .title{
     text-align: center;
     font-size: 30px;
@@ -365,6 +359,7 @@ img{
     cursor: pointer;
     font-size: 20px!important;
 }
+
 .youtubevideoshowbtn:hover{
     background-color: #fff;
     color: #000!important;
