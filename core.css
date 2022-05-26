@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans TC', sans-serif;
+
+}
+body{
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    animation:pageload 1s ;
+    overflow-x: hidden;
+}
+@keyframes pageload {
+    from{filter: blur(20px);}
+    to{filter: blur(0px);}
+}
+#footerico{
+    height: 20px;
+    width: 20px;
+    border: none!important;
+    border-radius: 0%!important;
+}
+#githublink{
+    border-bottom: 2px solid #000;
+    cursor: pointer;
+    transition: 0.5s ease-out;
+}
+#githublink:hover{
+    background: #000;
+    color: #fff;
+    border-bottom: none;
+}
+/* core.css file */
