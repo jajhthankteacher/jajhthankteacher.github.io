@@ -12,6 +12,7 @@ body {
     display: flex;
     animation:pageload 1s ;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 /* gotop */
 #gotop {

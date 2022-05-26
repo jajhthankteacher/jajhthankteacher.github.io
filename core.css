@@ -14,6 +14,7 @@ body{
     display: flex;
     animation:pageload 1s ;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 @keyframes pageload {
     from{filter: blur(20px);}
