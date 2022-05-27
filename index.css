@@ -289,7 +289,7 @@ a{
 }
 .teacherlist img{
     border-radius: 50%;
-    border: 3px solid #000;
+    border: 2px solid #000;
     height: 100px;
     width: 100px;
     transition: 0.3s;
@@ -321,8 +321,8 @@ a{
     transform-origin: bottom left;
 }
 .teacherlinklist a:hover img{
-    height:90px;
-    width: 90px;
+    height:85px;
+    width: 85px;
 }
 /* youtubevideo */
 .youtubevideo{
