@@ -250,6 +250,7 @@ body.active{
 .teacherlist .title:hover{
     color: #0055E1;
 }
+
 a{
     cursor: pointer;
 }
@@ -286,14 +287,12 @@ a{
 .teacherlist a:hover{
     color:#000;
 }
-img{
-    border-radius: 0%;
-}
 .teacherlist img{
     border-radius: 50%;
     border: 3px solid #000;
     height: 100px;
     width: 100px;
+    transition: 0.3s;
 }
 .teacherlist .teacherlinklistp{
     text-align: center;
@@ -316,9 +315,14 @@ img{
     transform-origin: bottom right;
     transition: transform 0.35s ease-out;
   }
+
 .teacherlinklist a:hover .teacherlinklistp:after{
     transform: scaleX(1);
     transform-origin: bottom left;
+}
+.teacherlinklist a:hover img{
+    height:90px;
+    width: 90px;
 }
 /* youtubevideo */
 .youtubevideo{
