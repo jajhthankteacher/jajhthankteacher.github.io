@@ -10,12 +10,12 @@ body {
     align-items: center;
     justify-content: center;
     display: flex;
-    animation:pageload 2s forwards;
+    animation:pageload 3s forwards;
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
 @keyframes pageload {
-    from{filter: blur(50px);}
+    from{filter: blur(60px);}
     to{filter: blur(0px);}
 }
 /* gotop */
@@ -89,6 +89,10 @@ body {
     border-radius:20px;
     align-items: center;
     cursor:context-menu;
+}
+.navlistd > p >a:hover{
+    background: #000;
+
 }
 .navlistd{
     display: block;
@@ -350,6 +354,7 @@ a{
     color: #0055E1;
 }
     /* footer */
+/* youtube api useing */
 .youtubevideoshowbtn {
     height: 35px;
     width: auto;
