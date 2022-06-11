@@ -50,9 +50,9 @@ body {
 
 /* @media screen styles: */
 @media screen and (max-width: 900px){/*last 900px*/
-    .navlistbtn{display: block!important;}
+    /* .navlistbtn{display: block!important;}
     .navlist{display: block!important;}
-    .navlistd{display: none!important;}
+    .navlistd{display: none!important;} */
 }
 @media screen and (min-width: 900px){/*over 900px*/
 
@@ -91,10 +91,6 @@ body {
     align-items: center;
     cursor:context-menu;
 }
-.navlistd > p >a:hover{
-    background: #000;
-
-}
 .navlistd{
     display: block;
     height: 120px;
@@ -121,8 +117,12 @@ body {
     margin:5px;
     line-height:50px;
     top: -5px;
+    transition: 0.5s;
 }
-
+.navlistd > a:hover{
+    background-color: #000;
+    color: #fff!important;
+}
 /* navlist-m */
 .navlist{
     z-index: 10;
