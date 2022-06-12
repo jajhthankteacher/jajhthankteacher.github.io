@@ -36,4 +36,23 @@ body{
     color: #fff;
     border-bottom: none;
 }
+/* cursor selection text #FFBF00 */
+p::selection{
+    background: #FFBF00;
+}
+h1::selection{
+    background: #FFBF00;
+}
+a::selection{
+    background: #FFBF00;
+}
+footer::selection{
+    background: #FFBF00;
+}
+span::selection{
+    background: #FFBF00;
+}
+img::selection{
+    background: #FFBF00;
+}
 /* core.css file */
